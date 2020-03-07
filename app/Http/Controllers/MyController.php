@@ -26,11 +26,11 @@ class MyController extends Controller
     	echo "edit";
     }
 
-    public function update(){
+    public function update(Request $request, $id){
     	echo "update";
     }
 
-    public function destroy(){
+    public function destroy($id){
     	echo "destroy";
     }
 }
